@@ -1,4 +1,6 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using ApartmentsParser.BusinessLogic.Interfaces;
+using ApartmentsParser.BusinessLogic.Parsers;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace ApartmentsParser.BusinessLogic.DI
 {
@@ -6,6 +8,7 @@ namespace ApartmentsParser.BusinessLogic.DI
     {
         public static void AddBusinessLogic(this IServiceCollection service)
         {
+            service.AddTransient<IOtodomParser, OtodomParser>();
         }
     }
 }
