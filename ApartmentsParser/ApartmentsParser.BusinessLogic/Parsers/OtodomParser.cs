@@ -44,7 +44,7 @@ namespace ApartmentsParser.BusinessLogic.Parsers
                     }
                 }
 
-                link.Replace(i.ToString(), (i + 1).ToString());
+                link.Replace($"page={i}", $"page={ i + 1 }");
             }
 
         }

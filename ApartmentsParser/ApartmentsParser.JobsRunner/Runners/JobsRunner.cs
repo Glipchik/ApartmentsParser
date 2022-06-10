@@ -17,7 +17,7 @@ namespace ApartmentsParser.JobsRunner.Runners
                 .WithIdentity("trigger", "group")
                 .StartNow()
                 .WithSimpleSchedule(s => s
-                .WithIntervalInSeconds(timeLapse)
+                .WithIntervalInMinutes(timeLapse)
                 .RepeatForever())
                 .Build();
 
