@@ -1,0 +1,17 @@
+C:\Users\h.biarozkin\Desktop\git-project\ApartmentsParser\ApartmentsParser\ApartmentsParser.BusinessLogic\bin\Debug\net5.0\ApartmentsParser.BusinessLogic.deps.json
+C:\Users\h.biarozkin\Desktop\git-project\ApartmentsParser\ApartmentsParser\ApartmentsParser.BusinessLogic\bin\Debug\net5.0\ApartmentsParser.BusinessLogic.dll
+C:\Users\h.biarozkin\Desktop\git-project\ApartmentsParser\ApartmentsParser\ApartmentsParser.BusinessLogic\bin\Debug\net5.0\ApartmentsParser.BusinessLogic.pdb
+C:\Users\h.biarozkin\Desktop\git-project\ApartmentsParser\ApartmentsParser\ApartmentsParser.BusinessLogic\bin\Debug\net5.0\ApartmentsParser.DataAccess.dll
+C:\Users\h.biarozkin\Desktop\git-project\ApartmentsParser\ApartmentsParser\ApartmentsParser.BusinessLogic\bin\Debug\net5.0\ApartmentsParser.Domain.dll
+C:\Users\h.biarozkin\Desktop\git-project\ApartmentsParser\ApartmentsParser\ApartmentsParser.BusinessLogic\bin\Debug\net5.0\ApartmentsParser.DataAccess.pdb
+C:\Users\h.biarozkin\Desktop\git-project\ApartmentsParser\ApartmentsParser\ApartmentsParser.BusinessLogic\bin\Debug\net5.0\ApartmentsParser.Domain.pdb
+C:\Users\h.biarozkin\Desktop\git-project\ApartmentsParser\ApartmentsParser\ApartmentsParser.BusinessLogic\obj\Debug\net5.0\ApartmentsParser.BusinessLogic.csproj.AssemblyReference.cache
+C:\Users\h.biarozkin\Desktop\git-project\ApartmentsParser\ApartmentsParser\ApartmentsParser.BusinessLogic\obj\Debug\net5.0\ApartmentsParser.BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\h.biarozkin\Desktop\git-project\ApartmentsParser\ApartmentsParser\ApartmentsParser.BusinessLogic\obj\Debug\net5.0\ApartmentsParser.BusinessLogic.AssemblyInfoInputs.cache
+C:\Users\h.biarozkin\Desktop\git-project\ApartmentsParser\ApartmentsParser\ApartmentsParser.BusinessLogic\obj\Debug\net5.0\ApartmentsParser.BusinessLogic.AssemblyInfo.cs
+C:\Users\h.biarozkin\Desktop\git-project\ApartmentsParser\ApartmentsParser\ApartmentsParser.BusinessLogic\obj\Debug\net5.0\ApartmentsParser.BusinessLogic.csproj.CoreCompileInputs.cache
+C:\Users\h.biarozkin\Desktop\git-project\ApartmentsParser\ApartmentsParser\ApartmentsParser.BusinessLogic\obj\Debug\net5.0\ApartmentsParser.BusinessLogic.csproj.CopyComplete
+C:\Users\h.biarozkin\Desktop\git-project\ApartmentsParser\ApartmentsParser\ApartmentsParser.BusinessLogic\obj\Debug\net5.0\ApartmentsParser.BusinessLogic.dll
+C:\Users\h.biarozkin\Desktop\git-project\ApartmentsParser\ApartmentsParser\ApartmentsParser.BusinessLogic\obj\Debug\net5.0\ref\ApartmentsParser.BusinessLogic.dll
+C:\Users\h.biarozkin\Desktop\git-project\ApartmentsParser\ApartmentsParser\ApartmentsParser.BusinessLogic\obj\Debug\net5.0\ApartmentsParser.BusinessLogic.pdb
+C:\Users\h.biarozkin\Desktop\git-project\ApartmentsParser\ApartmentsParser\ApartmentsParser.BusinessLogic\bin\Debug\net5.0\ref\ApartmentsParser.BusinessLogic.dll
