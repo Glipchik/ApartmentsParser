@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ApartmentsParser.BusinessLogic.Parsers
 {
-    public class OtodomParser : IOtodomParser
+    public class OtodomParser : IApartmentsParser
     {
         private readonly IApartmentRepository _apartmentRepository;
         private readonly IUnitOfWork _unitOfWork;
@@ -19,13 +19,15 @@ namespace ApartmentsParser.BusinessLogic.Parsers
             _unitOfWork = unitOfWork ?? throw new ArgumentNullException(nameof(unitOfWork));
         }
 
-        public async Task ParsePages(string link, string city, int numberOfPages)
+        public async Task ParsePages(string city, int numberOfPages)
         {
             var web = new HtmlWeb();
 
             for (int i = 1; i <= numberOfPages; i++)
             {
-                var document = web.Load(link);
+                string genericLink = "https://www.otodom.pl/pl/oferty/sprzedaz/mieszkanie/{0}?page={1}";
+                
+                var document = web.Load(string.Format(genericLink, city, i));
 
                 var ads = document.DocumentNode.SelectNodes("//a[@class='css-rvjxyq es62z2j14']");
                 int numberOfAd = 0;
@@ -42,8 +44,6 @@ namespace ApartmentsParser.BusinessLogic.Parsers
 
                     numberOfAd++;
                 }
-
-                link.Replace($"page={i}", $"page={ i + 1 }");
             }
         }
 

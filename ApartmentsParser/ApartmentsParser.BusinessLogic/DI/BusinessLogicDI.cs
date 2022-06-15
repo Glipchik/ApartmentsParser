@@ -9,7 +9,7 @@ namespace ApartmentsParser.BusinessLogic.DI
     {
         public static void AddBusinessLogic(this IServiceCollection service)
         {
-            service.AddTransient<IOtodomParser, OtodomParser>();
+            service.AddTransient<IApartmentsParser, OtodomParser>();
             service.AddTransient<IUnitOfWork, UnitOfWork>();
         }
     }
