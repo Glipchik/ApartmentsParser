@@ -1,15 +1,18 @@
-<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk.Worker">
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>dotnet-ApartmentsParser.JobsRunner-0BBF0EC3-7DB8-440E-AA2C-E718A7596FCA</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Quartz" Version="3.4.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="5.0.0" />
+    <PackageReference Include="Quartz.Extensions.DependencyInjection" Version="3.4.0" />
+    <PackageReference Include="Quartz.Extensions.Hosting" Version="3.4.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\ApartmentsParser.BusinessLogic\ApartmentsParser.BusinessLogic.csproj" />
+    <ProjectReference Include="..\ApartmentsParser.DataAccess\ApartmentsParser.DataAccess.csproj" />
   </ItemGroup>
-
 </Project>

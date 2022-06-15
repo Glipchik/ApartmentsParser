@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ApartmentsParser.DataAccess.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20220610085838_Initial")]
+    [Migration("20220613111033_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -20,7 +20,7 @@ namespace ApartmentsParser.DataAccess.Migrations
                 .HasAnnotation("ProductVersion", "5.0.17")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("ApartmentsParser.Domain.ApartmentEntities.Apartment", b =>
+            modelBuilder.Entity("ApartmentsParser.Domain.Entities.Apartment", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()

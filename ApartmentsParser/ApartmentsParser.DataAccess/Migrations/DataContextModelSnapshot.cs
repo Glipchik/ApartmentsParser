@@ -18,7 +18,7 @@ namespace ApartmentsParser.DataAccess.Migrations
                 .HasAnnotation("ProductVersion", "5.0.17")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("ApartmentsParser.Domain.ApartmentEntities.Apartment", b =>
+            modelBuilder.Entity("ApartmentsParser.Domain.Entities.Apartment", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()

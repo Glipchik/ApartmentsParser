@@ -4,6 +4,6 @@ namespace ApartmentsParser.BusinessLogic.Interfaces
 {
     public interface IOtodomParser
     {
-        public Task ParseOtodomPages(string link, string city, int numberOfPages);
+        public Task ParsePages(string link, string city, int numberOfPages);
     }
 }

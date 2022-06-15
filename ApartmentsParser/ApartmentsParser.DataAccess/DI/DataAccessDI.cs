@@ -11,11 +11,11 @@ namespace ApartmentsParser.DataAccess.DI
     {
         public static void AddDataLogic(this IServiceCollection service, IConfiguration config)
         {
-            service.AddDbContext<DataContext>(options=>
-            { 
-                options.UseSqlServer(config.GetConnectionString("DefaultConnection")); 
-            });
             service.AddTransient<IApartmentRepository, ApartmentRepository>();
+            service.AddDbContext<DataContext>(options =>
+            {
+                options.UseSqlServer(config.GetConnectionString("DefaultConnection"));
+            });
         }
     }
 }
