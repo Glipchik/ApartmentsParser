@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ApartmentsParser.BusinessLogic.Parsers
 {
-    public class OtodomParser : IApartmentsParser
+    public class OtodomParser : IOtodomParser
     {
         private readonly IApartmentRepository _apartmentRepository;
         private readonly IUnitOfWork _unitOfWork;

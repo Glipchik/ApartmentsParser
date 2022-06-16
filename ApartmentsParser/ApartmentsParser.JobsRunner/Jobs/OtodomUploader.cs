@@ -9,10 +9,10 @@ namespace ApartmentsParser.JobsRunner.Jobs
 {
     public class OtodomUploader : IJob
     {
-        private readonly IApartmentsParser _otodomParser;
+        private readonly IOtodomParser _otodomParser;
         private readonly IConfiguration _configuration;
 
-        public OtodomUploader(IApartmentsParser otodomParser, IConfiguration configuration)
+        public OtodomUploader(IOtodomParser otodomParser, IConfiguration configuration)
         {
             _otodomParser = otodomParser ?? throw new ArgumentNullException(nameof(otodomParser));
             _configuration = configuration ?? throw new ArgumentNullException(nameof(configuration));
