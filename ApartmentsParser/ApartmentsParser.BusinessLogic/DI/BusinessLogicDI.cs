@@ -11,6 +11,7 @@ namespace ApartmentsParser.BusinessLogic.DI
         {
             service.AddTransient<IOtodomParser, OtodomParser>();
             service.AddTransient<IUnitOfWork, UnitOfWork>();
+            service.AddTransient<IApartmentService, ApartmentService>();
         }
     }
 }

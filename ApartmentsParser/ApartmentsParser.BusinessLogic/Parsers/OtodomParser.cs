@@ -80,7 +80,7 @@ namespace ApartmentsParser.BusinessLogic.Parsers
 
             apartment.City = city;
 
-            apartment.Link = ad.Attributes.FirstOrDefault(i => i.Name.Equals("href")).Value;
+            apartment.Link = "https://www.otodom.pl/" + ad.Attributes.FirstOrDefault(i => i.Name.Equals("href")).Value;
             return apartment;
         }
     }
