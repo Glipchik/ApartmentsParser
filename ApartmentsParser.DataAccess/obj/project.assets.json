@@ -6001,19 +6001,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\h.biarozkin\\.nuget\\packages\\": {}
+    "C:\\Users\\Глеб\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\h.biarozkin\\Desktop\\git-project\\ApartmentsParser\\ApartmentsParser\\ApartmentsParser.DataAccess\\ApartmentsParser.DataAccess.csproj",
+      "projectUniqueName": "C:\\Users\\Глеб\\source\\repos\\Apartments-Parser-App_repo\\ApartmentsParser\\ApartmentsParser.DataAccess\\ApartmentsParser.DataAccess.csproj",
       "projectName": "ApartmentsParser.DataAccess",
-      "projectPath": "C:\\Users\\h.biarozkin\\Desktop\\git-project\\ApartmentsParser\\ApartmentsParser\\ApartmentsParser.DataAccess\\ApartmentsParser.DataAccess.csproj",
-      "packagesPath": "C:\\Users\\h.biarozkin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\h.biarozkin\\Desktop\\git-project\\ApartmentsParser\\ApartmentsParser\\ApartmentsParser.DataAccess\\obj\\",
+      "projectPath": "C:\\Users\\Глеб\\source\\repos\\Apartments-Parser-App_repo\\ApartmentsParser\\ApartmentsParser.DataAccess\\ApartmentsParser.DataAccess.csproj",
+      "packagesPath": "C:\\Users\\Глеб\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Глеб\\source\\repos\\Apartments-Parser-App_repo\\ApartmentsParser\\ApartmentsParser.DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\h.biarozkin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Глеб\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6027,8 +6027,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\h.biarozkin\\Desktop\\git-project\\ApartmentsParser\\ApartmentsParser\\ApartmentsParser.Domain\\ApartmentsParser.Domain.csproj": {
-              "projectPath": "C:\\Users\\h.biarozkin\\Desktop\\git-project\\ApartmentsParser\\ApartmentsParser\\ApartmentsParser.Domain\\ApartmentsParser.Domain.csproj"
+            "C:\\Users\\Глеб\\source\\repos\\Apartments-Parser-App_repo\\ApartmentsParser\\ApartmentsParser.Domain\\ApartmentsParser.Domain.csproj": {
+              "projectPath": "C:\\Users\\Глеб\\source\\repos\\Apartments-Parser-App_repo\\ApartmentsParser\\ApartmentsParser.Domain\\ApartmentsParser.Domain.csproj"
             }
           }
         }
@@ -6087,7 +6087,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }
