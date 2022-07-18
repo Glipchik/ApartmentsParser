@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "yBHxqu0MQgyxo+q2FbC0X9r1TnQuemz9PRP8BwVoeX5vYfKtIDo4ZssnPdsmV+uHCoRBzCUvR6NkrnmBUMXWug==",
+  "dgSpecHash": "ep8k9udo3+Ky4PUdZefsnwlzU0plOVUDCnmv5JXHx111tJE/f0fj9WAFgBTK+DAhrXL+jsARXvckwBpVKHR3/w==",
   "success": true,
   "projectFilePath": "C:\\Users\\Глеб\\source\\repos\\Apartments-Parser-App_repo\\ApartmentsParser\\ApartmentsParser.BusinessLogic\\ApartmentsParser.BusinessLogic.csproj",
   "expectedPackageFiles": [
@@ -23,6 +23,8 @@
     "C:\\Users\\Глеб\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\Глеб\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.2\\microsoft.extensions.dependencyinjection.5.0.2.nupkg.sha512",
     "C:\\Users\\Глеб\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Глеб\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\2.1.1\\microsoft.extensions.fileproviders.abstractions.2.1.1.nupkg.sha512",
+    "C:\\Users\\Глеб\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\2.1.1\\microsoft.extensions.hosting.abstractions.2.1.1.nupkg.sha512",
     "C:\\Users\\Глеб\\.nuget\\packages\\microsoft.extensions.identity.core\\5.0.17\\microsoft.extensions.identity.core.5.0.17.nupkg.sha512",
     "C:\\Users\\Глеб\\.nuget\\packages\\microsoft.extensions.identity.stores\\5.0.17\\microsoft.extensions.identity.stores.5.0.17.nupkg.sha512",
     "C:\\Users\\Глеб\\.nuget\\packages\\microsoft.extensions.logging\\5.0.0\\microsoft.extensions.logging.5.0.0.nupkg.sha512",
@@ -40,6 +42,9 @@
     "C:\\Users\\Глеб\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\Глеб\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\Глеб\\.nuget\\packages\\newtonsoft.json\\10.0.1\\newtonsoft.json.10.0.1.nupkg.sha512",
+    "C:\\Users\\Глеб\\.nuget\\packages\\quartz\\3.4.0\\quartz.3.4.0.nupkg.sha512",
+    "C:\\Users\\Глеб\\.nuget\\packages\\quartz.extensions.dependencyinjection\\3.4.0\\quartz.extensions.dependencyinjection.3.4.0.nupkg.sha512",
+    "C:\\Users\\Глеб\\.nuget\\packages\\quartz.extensions.hosting\\3.4.0\\quartz.extensions.hosting.3.4.0.nupkg.sha512",
     "C:\\Users\\Глеб\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Users\\Глеб\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\Глеб\\.nuget\\packages\\system.collections.concurrent\\4.3.0\\system.collections.concurrent.4.3.0.nupkg.sha512",

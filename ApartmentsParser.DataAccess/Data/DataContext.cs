@@ -13,13 +13,13 @@ namespace ApartmentsParser.DataAccess.Data
 
         public DataContext(DbContextOptions options) : base(options)
         {
-            Database.Migrate();
+            Database.EnsureCreated();
         }
 
         public DataContext(DbContextOptions options, IConfiguration configuration) : base(options)
         {
             _configuration = configuration ?? throw new ArgumentNullException(nameof(configuration));
-            Database.Migrate();
+            Database.EnsureCreated();
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

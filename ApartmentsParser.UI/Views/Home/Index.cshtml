@@ -2,7 +2,39 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+@model ApartmentsParser.Domain.Models.ApartmentsCollectionModel
+
+<h3>All apartments</h3>
+
+<div>
+    <table class="table table-striped thead-dark table-bordered table-hover">
+        <thead class="thead-dark">
+            <tr>
+                <th width="200"><p>#</p></th>
+                <th width="1000"><p>Title</p></th>
+                <th width="500"><p>City</p></th>
+                <th width="500"><p>RoomsNumber</p></th>
+                <th width="1000"><p>Link</p></th>
+            </tr>
+        </thead>
+        <tbody>
+            @{ int i = 1;
+                foreach(var apartment in Model.Apartments)
+                {
+                    <tr>
+                        <td scope="row">@i</td>
+                        <td>@apartment.Name</td>
+                        <td>@apartment.City</td>
+                        <td>@apartment.RoomsNumber</td>
+                        <td><a href='@apartment.Link' target="_blank">@apartment.Link</a></td>
+                    </tr>
+                    i++;
+                }
+            }
+        </tbody>
+    </table>
+    @if (Model.Apartments.ToArray().Length == 0)
+    {
+        <p>Your apartment database is empty. Please, run the ApartmentsParser.JobsRunner to upload apartments from Otodom and Olx</p>
+    }
 </div>

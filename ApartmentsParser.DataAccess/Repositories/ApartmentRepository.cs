@@ -1,9 +1,9 @@
 ﻿using ApartmentsParser.DataAccess.Data;
 using ApartmentsParser.DataAccess.Interfaces;
 using ApartmentsParser.Domain.Entities;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace ApartmentsParser.DataAccess.Repositories
@@ -22,21 +22,23 @@ namespace ApartmentsParser.DataAccess.Repositories
             await _context.Apartments.AddAsync(apartment);
         }
 
-        public void Delete(string name)
+        public async Task DeleteAsync(string name)
         {
-            var apartment = _context.Apartments.FirstOrDefault(e => e.Name.Equals(name));
+            var apartment = await _context.Apartments.FirstOrDefaultAsync(e => e.Name.Equals(name));
 
             _context.Remove(apartment);
         }
 
-        public IEnumerable<Apartment> GetAll()
+        public async Task<List<Apartment>> GetAllAsync()
         {
-            return _context.Apartments;
+            List<Apartment> apartments = await Task.Run(() => _context.Apartments.ToListAsync<Apartment>());
+
+            return apartments;
         }
 
-        public Apartment GetByName(string name)
+        public Task<Apartment> GetByNameAsync(string name)
         {
-            return _context.Apartments.FirstOrDefault(e => e.Name.Equals(name));
+            return _context.Apartments.FirstOrDefaultAsync(e => e.Name.Equals(name));
         }
     }
 }

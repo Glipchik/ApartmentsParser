@@ -6,12 +6,12 @@ namespace ApartmentsParser.DataAccess.Interfaces
 {
     public interface IApartmentRepository
     {
-        public Apartment GetByName(string name);
+        public Task<Apartment> GetByNameAsync(string name);
 
         public Task CreateAsync(Apartment apartment);
 
-        public void Delete(string name);
+        public Task DeleteAsync(string name);
 
-        public IEnumerable<Apartment> GetAll();
+        public Task<List<Apartment>> GetAllAsync();
     }
 }

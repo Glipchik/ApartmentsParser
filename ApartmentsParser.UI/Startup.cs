@@ -5,8 +5,6 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using System;
-using System.Threading;
 
 namespace ApartmentsParser.UI
 {
@@ -45,16 +43,12 @@ namespace ApartmentsParser.UI
 
             app.UseRouting();
 
-            app.UseAuthorization();
-
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
             });
-
-            JobsRunner.Runners.JobsRunner.Start(_configuration.GetValue<Int32>("TimeLapse"));
         }
     }
 }
