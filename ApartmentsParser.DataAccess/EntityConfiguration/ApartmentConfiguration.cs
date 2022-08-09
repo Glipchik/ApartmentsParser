@@ -10,7 +10,6 @@ namespace ApartmentsParser.DataAccess.EntityConfiguration
         {
             builder.Property(f => f.Name).IsRequired();
             builder.Property(f => f.City).IsRequired().HasMaxLength(50);
-            builder.Property(f => f.RoomsNumber).IsRequired();
             builder.Property(f => f.Link).IsRequired().HasMaxLength(250);
         }
     }

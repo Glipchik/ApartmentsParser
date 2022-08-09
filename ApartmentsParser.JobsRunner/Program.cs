@@ -21,10 +21,8 @@ namespace ApartmentsParser.JobsRunner
                 .ConfigureServices((hostContext, services) =>
                 {
                     var configuration = new ConfigurationBuilder().AddJsonFile("appsettings.json").Build();
-                    var otodomConfiguration = new OtodomJobsConfiguration();
                     var olxConfiguration = new OlxJobsConfiguration();
 
-                    configuration.GetSection("OtodomJobsConfiguration").Bind(otodomConfiguration);
                     configuration.GetSection("OlxJobsConfiguration").Bind(olxConfiguration);
 
                     services.AddDataLogic(configuration);
@@ -49,29 +47,9 @@ namespace ApartmentsParser.JobsRunner
                             .StartNow());
                     });
 
-                    services.AddQuartz(q =>
-                    {
-                        q.UseMicrosoftDependencyInjectionJobFactory();
-
-                        var jobKey = new JobKey("OtodomParserJob");
-
-                        q.AddJob<OtodomUploader>(opts => opts.WithIdentity(jobKey));
-
-                        q.AddTrigger(opts => opts
-                            .ForJob(jobKey)
-                            .WithIdentity("OtodomParserJob-TimerTrigger")
-                            .WithCronSchedule(otodomConfiguration.RepeatInterval));
-
-                        q.AddTrigger(opts => opts
-                            .ForJob(jobKey)
-                            .WithIdentity("OtodomParserJob-StartNowTrigger")
-                            .StartNow());
-                    });
-
                     services.AddQuartzHostedService(q => q.WaitForJobsToComplete = true);
 
                     services.Configure<OlxJobsConfiguration>(configuration.GetSection("OlxJobsConfiguration"));
-                    services.Configure<OtodomJobsConfiguration>(configuration.GetSection("OtodomJobsConfiguration"));
                 });
     }
 }

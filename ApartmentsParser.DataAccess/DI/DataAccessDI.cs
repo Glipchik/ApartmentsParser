@@ -17,7 +17,6 @@ namespace ApartmentsParser.DataAccess.DI
             {
                 options.UseSqlServer(config.GetConnectionString("DefaultConnection"));
             });
-            service.Configure<OtodomJobsConfiguration>(config.GetSection("OtodomJobsConfiguration"));
         }
     }
 }

@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ApartmentsParser.DataAccess.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20220613111033_Initial")]
+    [Migration("20220809181648_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -40,9 +40,6 @@ namespace ApartmentsParser.DataAccess.Migrations
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("RoomsNumber")
-                        .HasColumnType("int");
 
                     b.HasKey("Id");
 

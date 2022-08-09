@@ -53,7 +53,6 @@ namespace ApartmentsParser.BusinessLogic.Parsers
 
             var nameNode = ad.SelectNodes("//h6[@class='css-v3vynn-Text eu5v0x0']").ElementAt(numberOfAd);
             apartment.Name = nameNode.InnerText;
-            apartment.RoomsNumber = 0;
 
             apartment.City = city;
 

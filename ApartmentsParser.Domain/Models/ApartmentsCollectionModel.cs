@@ -7,7 +7,6 @@ namespace ApartmentsParser.Domain.Models
     {
         public IEnumerable<Apartment> Apartments { get; set; }
         public string NameSearchAttribute { get; set; }
-        public int RoomsNumberSearchAttribute { get; set; }
         public string CitySearchAttribute { get; set; }
     }
 }

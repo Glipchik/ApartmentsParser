@@ -20,7 +20,6 @@ C:\Users\Глеб\source\repos\Apartments-Parser-App_repo\ApartmentsParser\Apart
 C:\Users\Глеб\source\repos\Apartments-Parser-App_repo\ApartmentsParser\ApartmentsParser.DataAccess\bin\Debug\net5.0\ApartmentsParser.DataAccess.runtimeconfig.json
 C:\Users\Глеб\source\repos\Apartments-Parser-App_repo\ApartmentsParser\ApartmentsParser.DataAccess\bin\Debug\net5.0\ApartmentsParser.DataAccess.runtimeconfig.dev.json
 C:\Users\Глеб\source\repos\Apartments-Parser-App_repo\ApartmentsParser\ApartmentsParser.DataAccess\bin\Debug\net5.0\ApartmentsParser.DataAccess.dll
-C:\Users\Глеб\source\repos\Apartments-Parser-App_repo\ApartmentsParser\ApartmentsParser.DataAccess\bin\Debug\net5.0\ref\ApartmentsParser.DataAccess.dll
 C:\Users\Глеб\source\repos\Apartments-Parser-App_repo\ApartmentsParser\ApartmentsParser.DataAccess\bin\Debug\net5.0\ApartmentsParser.DataAccess.pdb
 C:\Users\Глеб\source\repos\Apartments-Parser-App_repo\ApartmentsParser\ApartmentsParser.DataAccess\bin\Debug\net5.0\ApartmentsParser.Domain.dll
 C:\Users\Глеб\source\repos\Apartments-Parser-App_repo\ApartmentsParser\ApartmentsParser.DataAccess\bin\Debug\net5.0\ApartmentsParser.Domain.pdb
@@ -34,3 +33,4 @@ C:\Users\Глеб\source\repos\Apartments-Parser-App_repo\ApartmentsParser\Apart
 C:\Users\Глеб\source\repos\Apartments-Parser-App_repo\ApartmentsParser\ApartmentsParser.DataAccess\obj\Debug\net5.0\ref\ApartmentsParser.DataAccess.dll
 C:\Users\Глеб\source\repos\Apartments-Parser-App_repo\ApartmentsParser\ApartmentsParser.DataAccess\obj\Debug\net5.0\ApartmentsParser.DataAccess.pdb
 C:\Users\Глеб\source\repos\Apartments-Parser-App_repo\ApartmentsParser\ApartmentsParser.DataAccess\obj\Debug\net5.0\ApartmentsParser.DataAccess.genruntimeconfig.cache
+C:\Users\Глеб\source\repos\Apartments-Parser-App_repo\ApartmentsParser\ApartmentsParser.DataAccess\obj\Debug\net5.0\refint\ApartmentsParser.DataAccess.dll

@@ -17,7 +17,6 @@ C:\Users\h.biarozkin\Desktop\git-project\ApartmentsParser\ApartmentsParser\Apart
 C:\Users\h.biarozkin\Desktop\git-project\ApartmentsParser\ApartmentsParser\ApartmentsParser.BusinessLogic\bin\Debug\net5.0\ref\ApartmentsParser.BusinessLogic.dll
 C:\Users\Глеб\source\repos\Apartments-Parser-App_repo\ApartmentsParser\ApartmentsParser.BusinessLogic\bin\Debug\net5.0\ApartmentsParser.BusinessLogic.deps.json
 C:\Users\Глеб\source\repos\Apartments-Parser-App_repo\ApartmentsParser\ApartmentsParser.BusinessLogic\bin\Debug\net5.0\ApartmentsParser.BusinessLogic.dll
-C:\Users\Глеб\source\repos\Apartments-Parser-App_repo\ApartmentsParser\ApartmentsParser.BusinessLogic\bin\Debug\net5.0\ref\ApartmentsParser.BusinessLogic.dll
 C:\Users\Глеб\source\repos\Apartments-Parser-App_repo\ApartmentsParser\ApartmentsParser.BusinessLogic\bin\Debug\net5.0\ApartmentsParser.BusinessLogic.pdb
 C:\Users\Глеб\source\repos\Apartments-Parser-App_repo\ApartmentsParser\ApartmentsParser.BusinessLogic\bin\Debug\net5.0\ApartmentsParser.DataAccess.dll
 C:\Users\Глеб\source\repos\Apartments-Parser-App_repo\ApartmentsParser\ApartmentsParser.BusinessLogic\bin\Debug\net5.0\ApartmentsParser.Domain.dll
@@ -32,3 +31,4 @@ C:\Users\Глеб\source\repos\Apartments-Parser-App_repo\ApartmentsParser\Apart
 C:\Users\Глеб\source\repos\Apartments-Parser-App_repo\ApartmentsParser\ApartmentsParser.BusinessLogic\obj\Debug\net5.0\ApartmentsParser.BusinessLogic.dll
 C:\Users\Глеб\source\repos\Apartments-Parser-App_repo\ApartmentsParser\ApartmentsParser.BusinessLogic\obj\Debug\net5.0\ref\ApartmentsParser.BusinessLogic.dll
 C:\Users\Глеб\source\repos\Apartments-Parser-App_repo\ApartmentsParser\ApartmentsParser.BusinessLogic\obj\Debug\net5.0\ApartmentsParser.BusinessLogic.pdb
+C:\Users\Глеб\source\repos\Apartments-Parser-App_repo\ApartmentsParser\ApartmentsParser.BusinessLogic\obj\Debug\net5.0\refint\ApartmentsParser.BusinessLogic.dll
