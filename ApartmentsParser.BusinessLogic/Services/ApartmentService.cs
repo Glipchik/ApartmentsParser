@@ -20,10 +20,12 @@ namespace ApartmentsParser.BusinessLogic.Services
         public async Task<ApartmentsCollectionModel> GetAll()
         {
             List<Apartment> apartments = await _apartmentRepository.GetAllAsync();
+
             var model = new ApartmentsCollectionModel
             {
                 Apartments = apartments
             };
+
             return model;
         }
     }

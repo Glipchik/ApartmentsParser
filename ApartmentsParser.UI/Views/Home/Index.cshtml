@@ -3,12 +3,12 @@
 }
 
 
-@*<meta http-equiv="refresh" content="5">*@
+<meta http-equiv="refresh" content="120">
 
 
 @model ApartmentsParser.Domain.Models.ApartmentsCollectionModel
 
-<h3>All apartments</h3>
+<h3 style="text-align:center">All apartments</h3>
 
 <div>
     <table class="table table-striped thead-dark table-bordered table-hover">
@@ -37,6 +37,6 @@
     </table>
     @if (Model.Apartments.ToArray().Length == 0)
     {
-        <p>Your apartment database is empty. Please, run the ApartmentsParser.JobsRunner to upload apartments from Otodom and Olx</p>
+        <p>Your apartment database is empty. Please, refresh the page</p>
     }
 </div>
