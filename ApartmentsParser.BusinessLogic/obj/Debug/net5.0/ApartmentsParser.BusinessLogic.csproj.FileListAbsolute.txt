@@ -32,3 +32,5 @@ C:\Users\Глеб\source\repos\Apartments-Parser-App_repo\ApartmentsParser\Apart
 C:\Users\Глеб\source\repos\Apartments-Parser-App_repo\ApartmentsParser\ApartmentsParser.BusinessLogic\obj\Debug\net5.0\ref\ApartmentsParser.BusinessLogic.dll
 C:\Users\Глеб\source\repos\Apartments-Parser-App_repo\ApartmentsParser\ApartmentsParser.BusinessLogic\obj\Debug\net5.0\ApartmentsParser.BusinessLogic.pdb
 C:\Users\Глеб\source\repos\Apartments-Parser-App_repo\ApartmentsParser\ApartmentsParser.BusinessLogic\obj\Debug\net5.0\refint\ApartmentsParser.BusinessLogic.dll
+C:\Users\Глеб\source\repos\Apartments-Parser-App_repo\ApartmentsParser\ApartmentsParser.BusinessLogic\bin\Debug\net5.0\ApartmentsParser.SharedData.dll
+C:\Users\Глеб\source\repos\Apartments-Parser-App_repo\ApartmentsParser\ApartmentsParser.BusinessLogic\bin\Debug\net5.0\ApartmentsParser.SharedData.pdb

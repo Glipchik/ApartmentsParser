@@ -625,6 +625,9 @@
           "lib/netstandard1.0/_._": {}
         }
       },
+      "SonarAnalyzer.CSharp/8.43.0.51858": {
+        "type": "package"
+      },
       "System.Collections/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -1678,6 +1681,16 @@
         "runtime": {
           "bin/placeholder/ApartmentsParser.Domain.dll": {}
         }
+      },
+      "ApartmentsParser.SharedData/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/ApartmentsParser.SharedData.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ApartmentsParser.SharedData.dll": {}
+        }
       }
     }
   },
@@ -2619,6 +2632,26 @@
         "lib/netstandard1.0/_._",
         "runtime.native.system.4.3.0.nupkg.sha512",
         "runtime.native.system.nuspec"
+      ]
+    },
+    "SonarAnalyzer.CSharp/8.43.0.51858": {
+      "sha512": "3izLCHSw0zqjbDfcJjAY3m75Goi5pcOOYss1HQGjgwWmAncddNJifIpT2KnOlE6GxKwf26TkgapxhJlUR8iosQ==",
+      "type": "package",
+      "path": "sonaranalyzer.csharp/8.43.0.51858",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/Google.Protobuf.dll",
+        "analyzers/SonarAnalyzer.CFG.dll",
+        "analyzers/SonarAnalyzer.CSharp.dll",
+        "analyzers/SonarAnalyzer.dll",
+        "images/sonarsource_64.png",
+        "license/THIRD-PARTY-NOTICES.txt",
+        "sonaranalyzer.csharp.8.43.0.51858.nupkg.sha512",
+        "sonaranalyzer.csharp.nuspec",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
       ]
     },
     "System.Collections/4.3.0": {
@@ -6131,18 +6164,25 @@
       "type": "project",
       "path": "../ApartmentsParser.Domain/ApartmentsParser.Domain.csproj",
       "msbuildProject": "../ApartmentsParser.Domain/ApartmentsParser.Domain.csproj"
+    },
+    "ApartmentsParser.SharedData/1.0.0": {
+      "type": "project",
+      "path": "../ApartmentsParser.SharedData/ApartmentsParser.SharedData.csproj",
+      "msbuildProject": "../ApartmentsParser.SharedData/ApartmentsParser.SharedData.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
       "ApartmentsParser.Domain >= 1.0.0",
+      "ApartmentsParser.SharedData >= 1.0.0",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 5.0.17",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 5.0.17",
       "Microsoft.EntityFrameworkCore >= 5.0.17",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.17",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.17",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.17",
-      "Quartz.Extensions.Hosting >= 3.4.0"
+      "Quartz.Extensions.Hosting >= 3.4.0",
+      "SonarAnalyzer.CSharp >= 8.43.0.51858"
     ]
   },
   "packageFolders": {
@@ -6174,6 +6214,9 @@
           "projectReferences": {
             "C:\\Users\\Глеб\\source\\repos\\Apartments-Parser-App_repo\\ApartmentsParser\\ApartmentsParser.Domain\\ApartmentsParser.Domain.csproj": {
               "projectPath": "C:\\Users\\Глеб\\source\\repos\\Apartments-Parser-App_repo\\ApartmentsParser\\ApartmentsParser.Domain\\ApartmentsParser.Domain.csproj"
+            },
+            "C:\\Users\\Глеб\\source\\repos\\Apartments-Parser-App_repo\\ApartmentsParser\\ApartmentsParser.SharedData\\ApartmentsParser.SharedData.csproj": {
+              "projectPath": "C:\\Users\\Глеб\\source\\repos\\Apartments-Parser-App_repo\\ApartmentsParser\\ApartmentsParser.SharedData\\ApartmentsParser.SharedData.csproj"
             }
           }
         }
@@ -6219,6 +6262,12 @@
           "Quartz.Extensions.Hosting": {
             "target": "Package",
             "version": "[3.4.0, )"
+          },
+          "SonarAnalyzer.CSharp": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[8.43.0.51858, )"
           }
         },
         "imports": [
