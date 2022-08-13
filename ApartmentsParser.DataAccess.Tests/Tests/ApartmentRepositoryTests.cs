@@ -78,7 +78,6 @@ namespace ApartmentsParser.DataAccess.Tests.Tests
                 result.Should().Be(apartment);
             }
         }
-
 #pragma warning restore CS4014 
     }
 }

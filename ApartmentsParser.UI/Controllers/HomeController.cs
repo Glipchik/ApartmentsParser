@@ -1,19 +1,16 @@
 ﻿using ApartmentsParser.BusinessLogic.Interfaces;
 using ApartmentsParser.UI.Models;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
 using System.Diagnostics;
 
 namespace ApartmentsParser.UI.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
         private readonly IApartmentService _apartmentService;
 
-        public HomeController(ILogger<HomeController> logger, IApartmentService apartmentService)
+        public HomeController(IApartmentService apartmentService)
         {
-            _logger = logger;
             _apartmentService = apartmentService;
         }
 

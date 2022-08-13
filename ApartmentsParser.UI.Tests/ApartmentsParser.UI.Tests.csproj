@@ -21,8 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ApartmentsParser.BusinessLogic\ApartmentsParser.BusinessLogic.csproj" />
-    <ProjectReference Include="..\ApartmentsParser.DataAccess\ApartmentsParser.DataAccess.csproj" />
+    <ProjectReference Include="..\ApartmentsParser.UI\ApartmentsParser.UI.csproj" />
   </ItemGroup>
 
 </Project>
