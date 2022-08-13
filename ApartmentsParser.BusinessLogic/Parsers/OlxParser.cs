@@ -49,7 +49,7 @@ namespace ApartmentsParser.BusinessLogic.Parsers
 
         private static Apartment GetSingleApartment(HtmlNode ad, string city, int numberOfAd)
         {
-            Apartment apartment = new();
+            var apartment = new Apartment();
 
             var nameNode = ad.SelectNodes("//h6[@class='css-v3vynn-Text eu5v0x0']").ElementAt(numberOfAd);
             apartment.Name = nameNode.InnerText;

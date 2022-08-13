@@ -19,7 +19,7 @@ namespace ApartmentsParser.UI.Controllers
 
         public IActionResult Index()
         {
-            var collectionModel = _apartmentService.GetAll().Result;
+            var collectionModel = _apartmentService.GetAllAsync().Result;
 
             return View(collectionModel);
         }

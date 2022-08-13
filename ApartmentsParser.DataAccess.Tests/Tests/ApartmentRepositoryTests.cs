@@ -4,14 +4,14 @@ using ApartmentsParser.DataAccess.Data;
 using ApartmentsParser.DataAccess.Repositories;
 using ApartmentsParser.Domain.Entities;
 using ApartmentsParser.SharedData.TestsData;
+using FluentAssertions;
 using Microsoft.EntityFrameworkCore;
 using NUnit.Framework;
 using System.Transactions;
-using FluentAssertions;
 
 namespace ApartmentsParser.DataAccess.Tests.Tests
 {
-    public class Tests
+    public class ApartmentRepositoryTests
     {
         private DataContext _context;
         private ApartmentRepository _apartmentRepository;
@@ -61,7 +61,7 @@ namespace ApartmentsParser.DataAccess.Tests.Tests
                 result.Should().BeNull();
             }
         }
-        
+
         [Test]
         public void GetByNameAsync_WhenApartmentNameIsCorrect_ShouldReturnApartment()
         {

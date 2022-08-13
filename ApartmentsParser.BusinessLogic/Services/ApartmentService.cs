@@ -17,7 +17,7 @@ namespace ApartmentsParser.BusinessLogic.Services
             _apartmentRepository = apartmentRepository ?? throw new ArgumentNullException(nameof(apartmentRepository));
         }
 
-        public async Task<ApartmentsCollectionModel> GetAll()
+        public async Task<ApartmentsCollectionModel> GetAllAsync()
         {
             List<Apartment> apartments = await _apartmentRepository.GetAllAsync();
 
