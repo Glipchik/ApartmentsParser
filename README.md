@@ -1,7 +1,8 @@
 # Introduction 
 Apartments Parser is the service for more convenient and easy way of searching for Polish apartments available on the website. 
 
-#Getting Started
+Getting Started
+
 TODO:
 1.  You need to specify a connection string for SQL Server Database. You can do it in "appsettings.json" file in ApartmentsParser.UI folder
 2.  You can change the number of pages and the list of cities that will be parsed and then showed. You can do it in "appsettings.json" file in
