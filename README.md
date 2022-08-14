@@ -1,20 +1,20 @@
 # Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+Apartments Parser is the service for more convenient and easy way of searching for Polish apartments available on the website. 
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+#Getting Started
+TODO:
+1.  You need to specify a connection string for SQL Server Database. You can do it in "appsettings.json" file in ApartmentsParser.UI folder
+2.  You can change the number of pages and the list of cities that will be parsed and then showed. You can do it in "appsettings.json" file in
+ApartmentsParser.JobsRunner folder
+3.	Now you can run the application
+
+# How does it work
+After launch you will see the table that will be empty at first. When you run the application, it starts to parse new apartments and add them to 
+the database. It means that all that you need to do to see the list of available apartments is to refresh the page. Also program automatically 
+refreshes the page every 2 minutes. In the table you will see the name of advertisement, the city and the link to the advertisement.
+
 
 # Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+Also you can run the tests that briefly checks operability of the program. To do it you need to specify the connection string in 
+"UnitTestsConstants" in ApartmentsParser.SharedData.TestsData folder.
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
-
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
